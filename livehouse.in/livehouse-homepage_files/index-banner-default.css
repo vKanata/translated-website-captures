@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/*Banner1*/
+.intro-block1 {
+	background-color: #20102D;
+	color: #fff;
+}
+
+.intro1 {
+	width: 1024px;
+	margin: 0 auto;
+	height: 350px;
+    padding: 80px 0 0 650px;
+    background-color: #20102D;
+	background: url(/wave/default/images/index-banner1.jpg) no-repeat center top;
+}
+
+.intro1 h1 {
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.intro1 p {
+	color: rgba(255,255,255,0.6);
+	font-size: 18px;
+	margin: 10px 0 20px 0;
+}
+
+a.banner-btn-enter {
+	border: 1px solid #0a6353;
+	background-color:#0b8d70;
+	background-image: -moz-linear-gradient(top, #0b8d70, #0a6353);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0b8d70), to(#0a6353));
+	background-image: -webkit-linear-gradient(top, #0b8d70, #0a6353);
+	background-image: -o-linear-gradient(top, #0b8d70, #0a6353);
+	background-image: linear-gradient(to bottom, #0b8d70, #0a6353);
+	background-repeat: repeat-x;
+	color: #FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	cursor: pointer;
+	font-size: 22px;
+	line-height: 50px;
+	font-family: "微軟正黑體", 'Voces', Arial, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	-moz-box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+	-webkit-box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+	box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+}
+
+a.banner-btn-enter:hover, a.banner-btn-enter:active {
+    color: #FFF;
+    background-color: #0b8d70;
+    *background-color: #0b8d70;
+    background-image: -moz-linear-gradient(top, #0a6353, #0b8d70);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0a6353), to(#0b8d70));
+    background-image: -webkit-linear-gradient(top, #0a6353, #0b8d70);
+    background-image: -o-linear-gradient(top, #0a6353, #0b8d70);
+    background-image: linear-gradient(to bottom, #0a6353, #0b8d70);
+    background-repeat: repeat-x;
+}
+
+/*Banner2*/
+.intro-block2 {
+    background-color: #061F23;
+	color: #fff;
+}
+
+.intro2 {
+	width: 1024px;
+	margin: 0 auto;
+	height: 350px;
+	padding: 60px 0 0 580px;
+	background: #061F23 url(/wave/default/images/index-banner2.jpg) no-repeat center top;
+}
+
+.intro2 h1 {
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+.intro2 h1 span {
+	color: #FFF;
+	-webkit-text-shadow: 2px  2px  15px  #4bdbe0;
+	-moz-text-shadow: 2px  2px  15px  #4bdbe0;
+	text-shadow: 2px  2px  15px  #4bdbe0;
+}
+
+.banner-download1 {
+	background: url(/wave/default/images/banner2-icon.png) no-repeat left top;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -10px 2px 0 -2px;
+	background-size: auto 330%;
+}
+
+.banner-download2 {
+	background: url(/wave/default/images/banner2-icon.png) no-repeat 0px -82px;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -5px 0 5px 0;
+	background-size: auto 330%;
+}
+
+a.banner-btn-android, a.banner-btn-ios {
+	background-color: #FE8300;
+    background-image: -moz-linear-gradient(top, #FE8300, #E04A00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FE8300), to(#E04A00));
+    background-image: -webkit-linear-gradient(top, #FE8300, #E04A00);
+    background-image: -o-linear-gradient(top, #FE8300, #E04A00);
+    background-image: linear-gradient(to bottom, #FE8300, #E04A00);
+    background-repeat: repeat-x;
+    color: #FFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: "微軟正黑體", 'Voces', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-box-shadow: 2px 2px 9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 9px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 9px rgba(0,0,0,0.2);
+    padding: 0 25px 0 15px;
+    width: 340px;
+}
+
+a.banner-btn-android:hover, a.banner-btn-android:active,
+a.banner-btn-ios:hover, a.banner-btn-ios:active {
+    color: #FFF;
+    background-color: #E04A00;
+    *background-color: #E04A00;
+    background-image: -moz-linear-gradient(top, #ca4402, #E04A00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ca4402), to(#E04A00));
+    background-image: -webkit-linear-gradient(top, #ca4402, #E04A00);
+    background-image: -o-linear-gradient(top, #ca4402, #E04A00);
+    background-image: linear-gradient(to bottom, #ca4402, #E04A00);
+    background-repeat: repeat-x;
+}
+
+.banner-btn-ios {
+	margin-top: 10px;
+}
+
+/*Banner3*/
+.intro-block3 {
+    background-color: #030303;
+	color: #fff;
+}
+
+.intro3 {
+	background-color: #030303;
+}
+
+.intro3 {
+	width: 1024px;
+	margin: 0 auto;
+	height: 350px;
+	padding: 60px 0 0 560px;
+	background: url(/wave/default/images/index-banner3.jpg) no-repeat 20% top;
+	background-size: auto 100%;
+}
+
+.intro3 h1 {
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	background: url(/wave/default/images/banner3-img.png) no-repeat left center;
+	padding-left: 58px;
+}
+
+.intro3 h1 span {
+	color: #B48BF9;
+	font-size: 30px;
+	display: block;
+	-webkit-text-shadow: 2px  2px  15px  #B48BF9;
+	-moz-text-shadow: 2px  2px  15px  #B48BF9;
+	text-shadow: 2px  2px  15px  #B48BF9;
+}
+
+a.banner-btn-fb {
+	border: 1px solid #4b69a8;
+	background-color:#4b69a8;
+	background-image: -moz-linear-gradient(top, #7589c8, #4b69a8);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7589c8), to(#4b69a8));
+	background-image: -webkit-linear-gradient(top, #7589c8, #4b69a8);
+	background-image: -o-linear-gradient(top, #7589c8, #4b69a8);
+	background-image: linear-gradient(to bottom, #7589c8, #4b69a8);
+	background-repeat: repeat-x;
+	color: #FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	cursor: pointer;
+	font-size: 22px;
+	line-height: 50px;
+	font-family: "微軟正黑體", 'Voces', Arial, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	-webkit-box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+	box-shadow: 2px  2px  9px  rgba(0,0,0,0.2);
+	margin-left: 58px;
+	padding: 0 25px;
+}
+
+a.banner-btn-fb:hover,a.banner-btn-fb:active {
+    color: #FFF;
+    background-color: #4b69a8;
+    *background-color: #4b69a8;
+    background-image: -moz-linear-gradient(top, #4b69a8, #7589c8);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4b69a8), to(#7589c8));
+    background-image: -webkit-linear-gradient(top, #4b69a8, #7589c8);
+    background-image: -o-linear-gradient(top, #4b69a8, #7589c8);
+    background-image: linear-gradient(to bottom, #4b69a8, #7589c8);
+    background-repeat: repeat-x;
+}
+
+a.intro-btn-fb {
+	margin-left: 0px;
+	margin-top:25px;
+}
+
+a.banner-btn-signup {
+	display: block;
+	color: rgba(255,255,255,0.6);
+	margin: 20px 0 0 58px;
+	font-size: 16px;
+}
+
+a.banner-btn-signup:hover {
+	color: #fff;
+}
+
+a.intro-btn-signup{margin: 20px 0 0 0px;}
+.banner-btn-signup span {
+	color: #030303;
+	background-color: rgba(255,255,255,0.6);
+	display: inline-block;
+	margin-right: 8px;
+	text-decoration: none;
+	-webkit-border-radius:9px;
+	-moz-border-radius:9px;
+	border-radius:9px;
+	height: 18px;
+	width: 18px;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
